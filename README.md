@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 ```
-* Python 3.6.3*
+* Python 3.6.3
 * Flask 0.12.2
 * Requests 2.18.4
 ```
@@ -16,7 +16,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Installing
 
 ```
-1. Download and install Python 3.6.3* from https://www.python.org/
+1. Download and install Python 3.6.3 from https://www.python.org/
 2. Add Python to path
 3. Install pip from https://bootstrap.pypa.io/get-pip.py (download and save as get-pip.py in Python directory)
 4. Check your requirements by using commands, python --version and then with pip --version
@@ -39,9 +39,6 @@ Please change to 'debug=False' in app.run() || In __init__.py at last line
 
 * [Flask](http://flask.pocoo.org/) - The web framework used
 
-## Contributing
-
-Please read [CONTRIBUTING](https://github.com/modernwarfareuplink/hpdf-task1/blob/master/CONTRIBUTING)
 
 ## Versioning
 
