@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+{% set count = [0] %}
+{%  for i in range(10) %}
+	
+  {% for j in range(10) %}
+		
+    {% if parsed2[j]["userId"]==parsed1[i]["id"] %}
+      {% if count.append(count.pop() + 1) %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+{% for i in range(10) %}
+	
+<p>Author Name : {{parsed1[i]["name"]}} , Number of Posts : {{ count }}</p>
+{% endfor %}
+</body>
+</html>
+
