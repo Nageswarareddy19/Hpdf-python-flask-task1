@@ -54,12 +54,13 @@ def img():
 @app.route('/input')
 def input():
     return render_template("sample.html")
-
-@app.route('/result',methods = ['POST', 'GET'])
+@app.route('/result',methods=['POST', 'GET'])
 def result():
-    Name=request.form['Name']
-    processed_Name=Name
-    return processed_Name
+    if request.method=='POST':
+        user=request.form['Name']
+        print(user,file=sys.stdout)
+    return "Output is Dsplay on terminal"
+
     
 if __name__ == "__main__":
     app.debug= True
