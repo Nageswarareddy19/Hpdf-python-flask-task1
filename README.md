@@ -52,8 +52,8 @@ Most probably the only version, expect no version change
 * Hasura for initiating this work
 ## Author
 
-* Kandikonda Nageswara Reddy
+* Kandikonda Nageswara Reddy(Pursuing Final year MCA), Velagapudi Ramakrishna Siddhartha Engineering College
 
 ## References
 
-<p>https://codeshare.io <br> https://www.tutorialspoint.com/flask <br> http://flask.pocoo.org/docs/0.12/tutorial/<br> HPDF Intern Help</p>
+<p> https://www.tutorialspoint.com/flask <br> http://flask.pocoo.org/docs/0.12/tutorial/<br> HPDF Intern Help</p>
