@@ -52,7 +52,7 @@ Most probably the only version, expect no version change
 * Hasura for initiating this work
 ## Author
 
-* Kandikonda Nageswara Reddy(Pursuing Final year MCA), Velagapudi Ramakrishna Siddhartha Engineering College
+* Kandikonda Nageswara Reddy(Pursuing Final year MCA), Velagapudi Ramakrishna Siddhartha Engineering College, Vijayawada
 
 ## References
 
