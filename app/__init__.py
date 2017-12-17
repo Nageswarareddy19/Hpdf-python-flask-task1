@@ -3,7 +3,7 @@ import requests,json
 
 app = Flask(__name__)
 #Task 1
-#A simple hello-world at http://localhost:8080/ that displays a simple string like "Hello World - Nageswara reddy"
+#A simple hello-world at http://localhost:5000/ that displays a simple string like "Hello World - Nageswara reddy"
  
 @app.route("/")
 def hello():
@@ -38,7 +38,7 @@ def getcookie():
     name=request.cookies.get('Name')
     age=request.cookies.get('Age')
     return '<h1>Name:'+name+'<br>Age:'+age+'</h1>'
- # Task 5 Deny requests to your http://localhost:8080/robots.txt page. 
+ # Task 5 Deny requests to your http://localhost:5000/robots.txt page. 
 @app.route('/robot.txt')
 def error():
     return render_template("error.html")
@@ -49,7 +49,7 @@ def image():
 @app.route('/image')
 def img():
     return render_template("image.html")
-# Task 7 A text box at http://localhost:8080/input which sends the data as POST to any endpoint of your choice. This endpoint should log the received the received to stdout.
+# Task 7 A text box at http://localhost:5000/input which sends the data as POST to any endpoint of your choice. This endpoint should log the received the received to stdout.
 
 @app.route('/input')
 def input():
